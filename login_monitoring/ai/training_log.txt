@@ -1,0 +1,56 @@
+[2026-03-28 16:11:56] [INFO] ================================================================================
+[2026-03-28 16:11:56] [INFO] Starting KMeans training pipeline
+[2026-03-28 16:11:56] [INFO] ================================================================================
+[2026-03-28 16:11:56] [ERROR] ERROR: name 'np' is not defined
+[2026-03-28 16:13:32] [INFO] ================================================================================
+[2026-03-28 16:13:32] [INFO] Starting KMeans training pipeline
+[2026-03-28 16:13:32] [INFO] ================================================================================
+[2026-03-28 16:13:32] [ERROR] ERROR: name 'np' is not defined
+[2026-03-28 16:15:11] [INFO] ================================================================================
+[2026-03-28 16:15:11] [INFO] Starting KMeans training pipeline
+[2026-03-28 16:15:11] [INFO] ================================================================================
+[2026-03-28 16:15:11] [ERROR] ERROR: name 'np' is not defined
+[2026-04-01 12:12:16] [INFO] ================================================================================
+[2026-04-01 12:12:16] [INFO] Starting KMeans training pipeline
+[2026-04-01 12:12:16] [INFO] ================================================================================
+[2026-04-01 12:12:16] [INFO] Starting realistic dataset generation...
+[2026-04-01 12:12:16] [INFO] Realistic dataset generated: 350 rows
+[2026-04-01 12:12:16] [INFO] Starting data encoding...
+[2026-04-01 12:12:16] [INFO] Encoded column 'device_type': {np.str_('Mobile'): 0, np.str_('PC'): 1, np.str_('Tablet'): 2}
+[2026-04-01 12:12:16] [INFO] Encoded column 'location': {np.str_('Japan'): 0, np.str_('Korea'): 1, np.str_('UK'): 2, np.str_('USA'): 3, np.str_('Vietnam'): 4}
+[2026-04-01 12:12:16] [INFO] Starting feature scaling...
+[2026-04-01 12:12:16] [INFO] Feature scaling completed
+[2026-04-01 12:12:16] [INFO] Starting KMeans training with k=3...
+[2026-04-01 12:12:18] [INFO] KMeans model trained successfully. Inertia: 872.28
+[2026-04-01 12:12:18] [INFO] Starting intelligent cluster mapping...
+[2026-04-01 12:12:18] [INFO] Cluster mapping: {0: 'Normal', 2: 'Suspicious', 1: 'High Risk'}
+[2026-04-01 12:12:18] [INFO] Model saved to c:\xampp\htdocs\login_monitoring\ai\kmeans_model.pkl
+[2026-04-01 12:12:18] [INFO] Scaler saved to c:\xampp\htdocs\login_monitoring\ai\scaler_model.pkl
+[2026-04-01 12:12:18] [INFO] Encoders saved to c:\xampp\htdocs\login_monitoring\ai\label_encoders.pkl
+[2026-04-01 12:12:18] [INFO] Cluster mapping saved to c:\xampp\htdocs\login_monitoring\ai\cluster_mapping.pkl
+[2026-04-01 12:12:18] [INFO] Dataset saved to c:\xampp\htdocs\login_monitoring\ai\login_dataset.xlsx
+[2026-04-01 12:12:18] [INFO] Results displayed. Total processed: 350 rows
+[2026-04-01 12:12:18] [INFO] Pipeline completed successfully
+[2026-04-01 12:12:18] [INFO] ================================================================================
+[2026-04-01 12:30:43] [INFO] ================================================================================
+[2026-04-01 12:30:43] [INFO] Starting KMeans training pipeline
+[2026-04-01 12:30:43] [INFO] ================================================================================
+[2026-04-01 12:30:43] [INFO] Starting realistic dataset generation...
+[2026-04-01 12:30:43] [INFO] Realistic dataset generated: 350 rows
+[2026-04-01 12:30:43] [INFO] Starting data encoding...
+[2026-04-01 12:30:43] [INFO] Encoded column 'device_type': {np.str_('Mobile'): 0, np.str_('PC'): 1, np.str_('Tablet'): 2}
+[2026-04-01 12:30:43] [INFO] Encoded column 'location': {np.str_('Japan'): 0, np.str_('Korea'): 1, np.str_('UK'): 2, np.str_('USA'): 3, np.str_('Vietnam'): 4}
+[2026-04-01 12:30:43] [INFO] Starting feature scaling...
+[2026-04-01 12:30:43] [INFO] Feature scaling completed
+[2026-04-01 12:30:43] [INFO] Starting KMeans training with k=3...
+[2026-04-01 12:30:45] [INFO] KMeans model trained successfully. Inertia: 872.28
+[2026-04-01 12:30:45] [INFO] Starting intelligent cluster mapping...
+[2026-04-01 12:30:45] [INFO] Cluster mapping: {0: 'Normal', 2: 'Suspicious', 1: 'High Risk'}
+[2026-04-01 12:30:45] [INFO] Model saved to c:\xampp\htdocs\login_monitoring\ai\kmeans_model.pkl
+[2026-04-01 12:30:45] [INFO] Scaler saved to c:\xampp\htdocs\login_monitoring\ai\scaler_model.pkl
+[2026-04-01 12:30:45] [INFO] Encoders saved to c:\xampp\htdocs\login_monitoring\ai\label_encoders.pkl
+[2026-04-01 12:30:45] [INFO] Cluster mapping saved to c:\xampp\htdocs\login_monitoring\ai\cluster_mapping.pkl
+[2026-04-01 12:30:45] [INFO] Dataset saved to c:\xampp\htdocs\login_monitoring\ai\login_dataset.xlsx
+[2026-04-01 12:30:45] [INFO] Results displayed. Total processed: 350 rows
+[2026-04-01 12:30:45] [INFO] Pipeline completed successfully
+[2026-04-01 12:30:45] [INFO] ================================================================================

@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at top,#0f172a,#020617);
+    color: #e5e7eb;
+    overflow-x: hidden;
+}
+
+/* WRAPPER */
+.ai-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* PANEL */
+.ai-panel {
+    width: 100%;
+    max-width: 1350px;
+    min-height: 85vh;
+    padding: 40px 30px;
+    border-radius: 28px;
+    background: rgba(15,23,42,0.85);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+    animation: runAiGlow 3s ease-in-out infinite;
+}
+
+@keyframes runAiGlow {
+    0%, 100% {
+        box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    }
+    50% {
+        box-shadow: 0 0 40px rgba(0, 255, 255, 0.4);
+    }
+}
+
+
+/* TITLE */
+.glow-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #38bdf8;
+    text-shadow: 0 0 20px #38bdf8;
+}
+
+.subtitle {
+    opacity: 0.85;
+    margin-bottom: 30px;
+}
+
+/* INFO BOX */
+.ai-info {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 35px;
+}
+
+.info-box {
+    background: rgba(2,6,23,0.9);
+    padding: 20px 30px;
+    border-radius: 18px;
+    width: 260px;
+
+    box-shadow: inset 0 0 15px rgba(56,189,248,0.25);
+}
+
+.info-box i {
+    font-size: 28px;
+    color: #38bdf8;
+    margin-bottom: 8px;
+}
+
+.info-box span {
+    display: block;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+/* STATUS */
+.run-status {
+    margin-bottom: 15px;
+    color: #facc15;
+    font-weight: bold;
+}
+
+/* LOG */
+.run-log {
+    background: #020617;
+    padding: 20px;
+    border-radius: 18px;
+
+    height: 280px;
+    overflow-y: auto;
+    text-align: left;
+
+    border: 1px solid rgba(56,189,248,0.3);
+    box-shadow: inset 0 0 20px rgba(56,189,248,0.2);
+}
+
+/* DONE */
+.done {
+    margin-top: 15px;
+    color: #22c55e;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.btn-group {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.btn {
+    padding: 14px 30px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn.glow {
+    background: linear-gradient(135deg,#0ea5e9,#38bdf8);
+    box-shadow: 0 0 25px rgba(56,189,248,0.8);
+}
+
+.btn.back {
+    background: linear-gradient(135deg,#64748b,#334155);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 35px rgba(56,189,248,1);
+}

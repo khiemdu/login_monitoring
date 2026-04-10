@@ -1,0 +1,10 @@
+{
+  "accuracy": 93.5,
+  "silhouette": 0.3199,
+  "davies_bouldin": 1.1578,
+  "calinski_harabasz": 92.01,
+  "train_accuracy": 95.0,
+  "val_accuracy": 92.0,
+  "total_samples": 412,
+  "optimal_clusters": 8
+}

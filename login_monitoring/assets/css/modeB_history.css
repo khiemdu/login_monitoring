@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* BOX */
+.history-box {
+    width: 95%;
+    max-width: 1300px;
+    padding: 30px;
+    background: rgba(10,20,30,0.9);
+    border-radius: 18px;
+    box-shadow: 0 0 30px rgba(0,255,255,0.25);
+    animation: fadeUp 0.8s ease;
+}
+
+/* TITLE */
+.title {
+    text-align: center;
+    color: #7ffcff;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    opacity: 0.85;
+    margin-bottom: 20px;
+}
+
+/* BACK BTN */
+.center-btn {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.glow-back-btn {
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: #7ffcff;
+    text-decoration: none;
+    border: 1px solid rgba(127,252,255,0.4);
+    transition: 0.3s;
+}
+
+.glow-back-btn:hover {
+    background: rgba(127,252,255,0.15);
+    box-shadow: 0 0 20px rgba(127,252,255,0.8);
+}
+
+/* TABLE */
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.history-table th {
+    background: rgba(0,0,0,0.4);
+    padding: 12px;
+    color: #9ffcff;
+}
+
+.history-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+/* ROW EFFECT */
+.row-hover:hover {
+    background: rgba(0,255,255,0.08);
+    box-shadow: inset 0 0 15px rgba(0,255,255,0.4);
+}
+
+/* STATUS */
+.status.success { color: #4cff7a; }
+.status.fail { color: #ff6b6b; }
+
+/* ALERT */
+.alert.low {
+    color: #4cff7a;
+}
+.alert.medium {
+    color: #ffd966;
+}
+.alert.high {
+    color: #ff4c4c;
+    font-weight: bold;
+}
+
+/* ALERT GLOW */
+.alert-high:hover {
+    box-shadow: inset 0 0 20px rgba(255,0,0,0.6);
+}
+.alert-medium:hover {
+    box-shadow: inset 0 0 20px rgba(255,255,0,0.4);
+}
+.alert-low:hover {
+    box-shadow: inset 0 0 20px rgba(0,255,0,0.4);
+}
+
+/* DEVICE */
+.device small {
+    opacity: 0.75;
+}
+
+/* ANIM */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* ===== BADGE CHUNG ===== */
+.badge {
+    padding: 6px 14px;
+    border-radius: 18px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* FAIL */
+.badge-fail {
+    background: linear-gradient(135deg,#ca1b1e,#84180c);
+    color: #fff;
+}
+
+/* SUCCESS GREEN */
+.badge-success-green {
+    background: linear-gradient(135deg,#2be478,#1bcb64);
+    color: #fff;
+}
+
+/* SUCCESS YELLOW */
+.badge-success-yellow {
+    background: linear-gradient(135deg,#c3ea04,#dff70b);
+    color: #000;
+}
+
+/* SUCCESS RED (CAM) */
+.badge-success-red {
+    background: linear-gradient(135deg,#e67e22,#e8630b);
+    color: #fff;
+}
+/* ===== AI STATUS GLOW ENHANCEMENT ===== */
+
+.badge-success-green {
+    box-shadow: 0 0 10px rgba(43,228,120,0.7);
+}
+
+.badge-success-yellow {
+    box-shadow: 0 0 10px rgba(223,247,11,0.7);
+}
+
+.badge-success-red {
+    box-shadow: 0 0 12px rgba(230,126,34,0.8);
+}
+
+.badge-fail {
+    box-shadow: 0 0 15px rgba(255,0,0,0.9);
+}

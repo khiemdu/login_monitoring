@@ -1,0 +1,154 @@
+/* ===== RESET ===== */
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle at top, #5e5666, #181f32, #173a28, #075a6e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+/* ===== LOGIN BOX ===== */
+.login-box {
+    width: 420px;
+    padding: 35px 30px;
+    background: rgba(15, 32, 39, 0.88);
+    border-radius: 18px;
+    box-shadow:
+        0 0 25px rgba(0, 255, 255, 0.25),
+        inset 0 0 15px rgba(255,255,255,0.05);
+    animation: fadeUp 0.8s ease;
+}
+
+/* ===== TITLE ===== */
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 26px;
+    color: #7ffcff;
+}
+
+.login-box h2 i {
+    margin-right: 8px;
+}
+
+/* ===== DESC ===== */
+.login-box .desc {
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.85;
+    margin-bottom: 28px;
+}
+
+/* ===== INPUT GROUP ===== */
+.input-group {
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    transform: translateY(-50%);
+    color: #9ffcff;
+    font-size: 16px;
+    pointer-events: none;
+}
+
+/* ===== INPUT ===== */
+.input-group input {
+    width: 100%;
+    padding: 14px 14px 14px 42px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    outline: none;
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    font-size: 15px;
+    transition: 0.35s;
+}
+
+/* ===== GLOW EFFECT ===== */
+.input-group input:focus {
+    background: rgba(0,0,0,0.35);
+    border: 2px solid transparent;
+    box-shadow:
+        0 0 0 2px rgba(0,255,255,0.8),
+        0 0 18px rgba(0,255,255,0.7),
+        inset 0 0 8px rgba(0,255,255,0.3);
+}
+
+/* ===== BUTTON ===== */
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #00f2fe, #4facfe);
+    color: #003344;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.35s;
+    box-shadow: 0 0 18px rgba(0,255,255,0.5);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 28px rgba(0,255,255,0.9);
+}
+
+/* ===== BACK BUTTON ===== */
+.glow-back-btn {
+    display: block;
+    margin-top: 18px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 12px;
+    color: #7ffcff;
+    text-decoration: none;
+    border: 1px solid rgba(127,252,255,0.4);
+    transition: 0.35s;
+}
+
+.glow-back-btn:hover {
+    background: rgba(127,252,255,0.15);
+    box-shadow: 0 0 18px rgba(127,252,255,0.7);
+}
+
+/* ===== ERROR MSG ===== */
+.msg {
+    text-align: center;
+    margin-top: 15px;
+    color: #ff7b7b;
+}
+
+/* ===== ANIMATION ===== */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== SECURITY ALERT ===== */
+.security-alert {
+    background: #fff3cd;
+    border-left: 6px solid #ff9800;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    color: #856404;
+    font-weight: bold;
+}

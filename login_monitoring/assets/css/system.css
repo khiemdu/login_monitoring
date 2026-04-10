@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+    color: #e8f6ff;
+}
+
+/* ================= HEADER ================= */
+.top-header {
+    text-align: center;
+    padding: 35px 20px;
+    background: linear-gradient(135deg,#141e30,#243b55);
+    box-shadow: 0 0 30px rgba(0,200,255,0.6);
+}
+
+.top-header h1 {
+    margin: 0;
+    font-size: 34px;
+    color: #9ee7ff;
+    text-shadow: 
+        0 0 8px #00c6ff,
+        0 0 18px #0072ff;
+}
+
+.top-header p {
+    margin-top: 10px;
+    color: #cdefff;
+    text-shadow: 0 0 6px rgba(0,200,255,0.8);
+}
+
+/* ================= DASHBOARD ================= */
+.dashboard {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+}
+
+/* ================= CARD ================= */
+.card {
+    width: 320px;
+    background: rgba(20, 30, 40, 0.85);
+    border-radius: 28px;
+    padding: 32px;
+    text-align: center;
+    position: relative;
+    border: 2px solid rgba(0,200,255,0.3);
+    box-shadow:
+        0 0 25px rgba(0,200,255,0.3),
+        inset 0 0 15px rgba(0,200,255,0.2);
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-12px) scale(1.02);
+    box-shadow:
+        0 0 40px rgba(0,255,255,0.9),
+        inset 0 0 20px rgba(0,255,255,0.5);
+}
+
+/* ICON */
+.card-icon {
+    font-size: 48px;
+    margin-bottom: 15px;
+    text-shadow: 0 0 15px currentColor;
+}
+
+.mode-a .card-icon { color: #36d1dc; }
+.mode-b .card-icon { color: #ff6a5c; }
+
+/* TITLE */
+.card h2 {
+    margin: 12px 0 6px;
+    color: #ffffff;
+    text-shadow: 0 0 10px #00eaff;
+}
+
+.card h4 {
+    margin-bottom: 16px;
+    color: #9adfff;
+}
+
+/* LIST */
+.card ul {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 22px;
+}
+
+.card ul li {
+    margin-bottom: 9px;
+    color: #d8f4ff;
+}
+
+/* ================= BUTTON ================= */
+.card-btn {
+    display: inline-block;
+    padding: 13px 26px;
+    border-radius: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: 0.35s;
+    box-shadow: 0 0 15px rgba(0,200,255,0.6);
+}
+
+.mode-a .card-btn {
+    background: linear-gradient(135deg,#00c6ff,#0072ff);
+}
+
+.mode-b .card-btn {
+    background: linear-gradient(135deg,#ff416c,#ff4b2b);
+}
+
+.card-btn:hover {
+    transform: scale(1.08);
+    box-shadow:
+        0 0 30px rgba(0,255,255,1),
+        0 0 60px rgba(0,255,255,0.8);
+}
+
+/* ================= AI SECTION ================= */
+.ai-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.ai-card {
+    width: 80%;
+    max-width: 850px;
+    background: rgba(10, 25, 40, 0.85);
+    border-radius: 35px;
+    padding: 40px;
+    text-align: center;
+    border: 2px solid rgba(0,255,200,0.4);
+    box-shadow:
+        0 0 30px rgba(0,255,200,0.6),
+        inset 0 0 18px rgba(0,255,200,0.3);
+    transition: 0.4s;
+}
+
+.ai-card:hover {
+    box-shadow:
+        0 0 45px rgba(0,255,200,1),
+        inset 0 0 25px rgba(0,255,200,0.5);
+}
+
+.ai-icon {
+    font-size: 55px;
+    color: #00ffd5;
+    margin-bottom: 18px;
+    text-shadow: 0 0 20px #00ffd5;
+}
+
+.ai-btn {
+    display: inline-block;
+    margin-top: 22px;
+    padding: 15px 34px;
+    background: linear-gradient(135deg,#00f2fe,#4facfe);
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 0 18px rgba(0,200,255,0.7);
+    transition: 0.35s;
+}
+
+.ai-btn:hover {
+    transform: scale(1.1);
+    box-shadow:
+        0 0 35px rgba(0,255,255,1),
+        0 0 60px rgba(0,255,255,0.9);
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    text-align: center;
+    padding: 22px;
+    color: #bdefff;
+    text-shadow: 0 0 8px rgba(0,200,255,0.7);
+}

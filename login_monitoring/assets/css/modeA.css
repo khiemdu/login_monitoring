@@ -1,0 +1,208 @@
+/* =====================
+   GLOBAL
+===================== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at top, #020024, #090979, #00d4ff);
+    color: #eaf6ff;
+}
+
+/* =====================
+   LOGIN BOX
+===================== */
+.login-box {
+    width: 380px;
+    margin: 80px auto;
+    background: rgba(15, 25, 45, 0.92);
+    padding: 35px;
+    border-radius: 30px;
+    text-align: center;
+
+    border: 2px solid rgba(0, 255, 255, 0.4);
+    box-shadow:
+        0 0 25px rgba(0, 255, 255, 0.35),
+        inset 0 0 25px rgba(0, 255, 255, 0.15);
+}
+
+/* TITLE GLOW */
+.login-box h2 {
+    margin-bottom: 5px;
+    font-size: 26px;
+    color: #ffffff;
+    text-shadow:
+        0 0 8px #00f2ff,
+        0 0 16px #00c6ff,
+        0 0 28px #0072ff;
+}
+
+/* DESCRIPTION */
+.desc {
+    color: #b8dfff;
+    margin-bottom: 25px;
+}
+
+/* =====================
+   INPUT
+===================== */
+.input-group {
+    display: flex;
+    align-items: center;
+
+    background: rgba(0,0,0,0.55);
+    border-radius: 15px;
+    padding: 12px;
+    margin-bottom: 18px;
+
+    border: 2px solid rgba(0, 255, 255, 0.2);
+    transition: 0.4s;
+}
+
+.input-group i {
+    margin-right: 10px;
+    color: #7deaff;
+    text-shadow: 0 0 6px #00e5ff;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+
+    background: transparent;
+    color: #ffffff;
+}
+
+/* GLOW WHEN FOCUS */
+.input-group:focus-within {
+    border-color: #00f2ff;
+    box-shadow:
+        0 0 12px #00f2ff,
+        inset 0 0 12px rgba(0, 242, 255, 0.4);
+}
+
+/* =====================
+   BUTTON LOGIN
+===================== */
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 15px;
+
+    background: linear-gradient(135deg,#00f2ff,#0066ff);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+    box-shadow: 0 0 18px rgba(0, 242, 255, 0.6);
+    transition: all 0.35s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        0 0 30px rgba(0, 242, 255, 0.9),
+        0 0 50px rgba(0, 102, 255, 0.7);
+}
+
+/* =====================
+   MESSAGE
+===================== */
+.msg {
+    margin-top: 15px;
+    color: #ff6b6b;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(255, 107, 107, 0.8);
+}
+
+/* =====================
+   HISTORY TABLE
+===================== */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: rgba(10, 20, 40, 0.9);
+    border-radius: 15px;
+    overflow: hidden;
+
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.35);
+}
+
+th {
+    background: linear-gradient(135deg,#001f3f,#003566);
+    color: #ffffff;
+    padding: 12px;
+    text-shadow: 0 0 6px #00c6ff;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    color: #eaf6ff;
+}
+
+/* STATUS COLORS */
+.success {
+    background: rgba(0, 255, 170, 0.15);
+    color: #3dffb5;
+    text-shadow: 0 0 6px #3dffb5;
+}
+
+.fail {
+    background: rgba(255, 80, 80, 0.2);
+    color: #ff6b6b;
+    text-shadow: 0 0 6px #ff6b6b;
+}
+
+/* =====================
+   BACK BUTTON GLOW
+===================== */
+.glow-back-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    margin: 20px auto;
+    padding: 12px 26px;
+
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+
+    border-radius: 30px;
+    border: 2px solid transparent;
+
+    background: linear-gradient(
+        135deg,
+        #00f2ff,
+        #0066ff,
+        #00f2ff
+    );
+    background-size: 300% 300%;
+
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.8);
+    transition: all 0.35s ease;
+    animation: glowMove 6s ease infinite;
+}
+
+.glow-back-btn:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow:
+        0 0 40px rgba(0, 242, 255, 1),
+        0 0 70px rgba(0, 102, 255, 0.8);
+}
+
+/* =====================
+   ANIMATION
+===================== */
+@keyframes glowMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}

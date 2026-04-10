@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eaf6ff;
+}
+
+/* ================= WRAPPER ================= */
+.register-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* ================= CARD ================= */
+.register-card {
+    width: 420px;
+    background: rgba(20, 30, 45, 0.92);
+    padding: 38px;
+    border-radius: 28px;
+    text-align: center;
+    border: 2px solid rgba(120, 200, 255, 0.35);
+    box-shadow:
+        0 0 25px rgba(120,200,255,0.35),
+        inset 0 0 18px rgba(120,200,255,0.15);
+    transition: 0.4s;
+}
+
+.register-card:hover {
+    box-shadow:
+        0 0 35px rgba(120,200,255,0.6),
+        inset 0 0 22px rgba(120,200,255,0.25);
+}
+
+/* ================= ICON ================= */
+.icon-box {
+    width: 85px;
+    height: 85px;
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -75px auto 18px;
+    font-size: 36px;
+    box-shadow: 0 0 25px rgba(0,200,255,0.8);
+}
+
+/* ================= TITLE ================= */
+h1 {
+    margin: 12px 0 6px;
+    color: #ffffff;
+    text-shadow:
+        0 0 10px rgba(0,200,255,0.9),
+        0 0 18px rgba(0,120,255,0.6);
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #b9dbff;
+    margin-bottom: 26px;
+}
+
+/* ================= INPUT ================= */
+.input-group {
+    display: flex;
+    align-items: center;
+    background: rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    border: 1.5px solid rgba(120,200,255,0.35);
+    transition: 0.3s;
+}
+
+.input-group:hover,
+.input-group:focus-within {
+    border-color: #4facfe;
+    box-shadow: 0 0 14px rgba(0,200,255,0.6);
+}
+
+.input-group i {
+    color: #9ad9ff;
+    margin-right: 12px;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    background: transparent;
+    color: #ffffff;
+}
+
+.input-group input::placeholder {
+    color: #b7d7ff;
+}
+
+/* ================= BUTTON ================= */
+button {
+    width: 100%;
+    padding: 13px;
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    border: none;
+    border-radius: 16px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    box-shadow: 0 0 18px rgba(0,200,255,0.6);
+    transition: 0.35s;
+}
+
+button:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow:
+        0 0 35px rgba(0,255,255,1),
+        0 0 60px rgba(0,255,255,0.8);
+}
+
+button:active {
+    transform: scale(0.97);
+    box-shadow: 0 0 20px rgba(0,200,255,0.8);
+}
+
+/* ================= ENTER BUTTON ================= */
+.enter-btn {
+    display: inline-block;
+    margin-top: 22px;
+    padding: 13px 30px;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    color: white;
+    border-radius: 18px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 0 18px rgba(120,120,255,0.6);
+    transition: 0.35s;
+}
+
+.enter-btn:hover {
+    transform: scale(1.08);
+    box-shadow:
+        0 0 30px rgba(160,160,255,1),
+        0 0 55px rgba(160,160,255,0.8);
+}
+
+/* ================= MESSAGE ================= */
+.msg {
+    margin-top: 18px;
+    padding: 12px;
+    border-radius: 14px;
+    font-size: 14px;
+}
+
+/* ERROR */
+.error {
+    background: rgba(255, 80, 80, 0.15);
+    color: #ff9b9b;
+    border: 1px solid rgba(255,80,80,0.4);
+    box-shadow: 0 0 12px rgba(255,80,80,0.6);
+}
+
+/* SUCCESS */
+.success {
+    background: rgba(80, 255, 180, 0.15);
+    color: #9dffd8;
+    border: 1px solid rgba(80,255,180,0.4);
+    box-shadow: 0 0 12px rgba(80,255,180,0.6);
+}

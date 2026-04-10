@@ -1,0 +1,351 @@
+device_type,location,login_hour,login_count,failed_attempts,cluster,risk_level
+Mobile,Vietnam,17,2,0,0,Normal
+Tablet,USA,3,9,3,1,High Risk
+Mobile,USA,2,10,3,1,High Risk
+PC,USA,20,6,3,2,Suspicious
+PC,Vietnam,8,3,0,0,Normal
+Mobile,Vietnam,2,4,2,0,Normal
+PC,Japan,2,9,3,1,High Risk
+Mobile,Vietnam,2,4,1,0,Normal
+PC,UK,1,5,3,1,High Risk
+Mobile,USA,21,4,2,2,Suspicious
+PC,Korea,11,3,0,2,Suspicious
+Mobile,Vietnam,20,3,1,0,Normal
+PC,Vietnam,6,1,0,0,Normal
+PC,Korea,13,2,0,2,Suspicious
+Mobile,Vietnam,10,2,0,0,Normal
+PC,Vietnam,15,2,0,0,Normal
+Tablet,UK,2,10,4,1,High Risk
+PC,Vietnam,9,2,0,0,Normal
+Mobile,Vietnam,16,3,0,0,Normal
+Tablet,Vietnam,7,2,0,0,Normal
+Tablet,Japan,5,5,3,1,High Risk
+Mobile,Vietnam,12,2,0,0,Normal
+Mobile,Korea,20,5,2,2,Suspicious
+Tablet,Vietnam,20,5,1,0,Normal
+PC,Vietnam,7,2,0,0,Normal
+Mobile,Korea,15,2,0,2,Suspicious
+Tablet,UK,22,6,1,2,Suspicious
+PC,Korea,14,2,0,2,Suspicious
+PC,Vietnam,6,1,0,0,Normal
+Tablet,Vietnam,4,4,1,0,Normal
+PC,UK,4,7,1,1,High Risk
+PC,USA,23,7,3,2,Suspicious
+Mobile,Korea,13,2,0,2,Suspicious
+Mobile,Korea,12,1,0,2,Suspicious
+Tablet,USA,2,4,2,1,High Risk
+PC,Vietnam,9,3,0,0,Normal
+Mobile,Vietnam,16,2,0,0,Normal
+Mobile,Korea,17,2,0,2,Suspicious
+PC,USA,3,5,2,1,High Risk
+Mobile,USA,1,8,5,1,High Risk
+PC,Vietnam,16,2,0,0,Normal
+Tablet,Vietnam,10,2,0,0,Normal
+Mobile,UK,4,8,5,1,High Risk
+Mobile,Vietnam,16,3,0,0,Normal
+PC,Japan,2,7,1,1,High Risk
+Tablet,Vietnam,16,3,0,0,Normal
+PC,Vietnam,11,2,0,0,Normal
+PC,USA,2,4,1,1,High Risk
+Tablet,Vietnam,8,1,0,0,Normal
+Tablet,UK,1,10,4,1,High Risk
+PC,Japan,1,10,5,1,High Risk
+PC,Korea,19,2,0,2,Suspicious
+Mobile,Vietnam,10,1,0,0,Normal
+Mobile,Vietnam,10,2,1,0,Normal
+PC,Japan,23,7,1,2,Suspicious
+Tablet,Vietnam,23,4,2,0,Normal
+Tablet,Vietnam,14,2,0,0,Normal
+Mobile,Japan,5,4,2,1,High Risk
+Tablet,Vietnam,17,2,0,0,Normal
+Mobile,Vietnam,8,1,0,0,Normal
+Tablet,UK,23,7,3,2,Suspicious
+Mobile,Vietnam,11,3,0,0,Normal
+Mobile,Vietnam,20,3,1,0,Normal
+Mobile,USA,2,10,4,1,High Risk
+Mobile,Korea,17,1,0,2,Suspicious
+Tablet,Korea,8,1,1,2,Suspicious
+PC,Korea,22,7,1,2,Suspicious
+PC,Vietnam,21,6,3,0,Normal
+Tablet,UK,20,7,2,2,Suspicious
+Tablet,UK,1,9,4,1,High Risk
+PC,Japan,3,6,2,1,High Risk
+Tablet,Vietnam,21,1,1,0,Normal
+Mobile,Korea,9,3,0,2,Suspicious
+Mobile,Vietnam,14,1,0,0,Normal
+PC,Korea,19,2,0,2,Suspicious
+PC,Korea,21,6,3,2,Suspicious
+Tablet,Korea,14,3,0,2,Suspicious
+PC,Vietnam,10,3,0,0,Normal
+Mobile,Korea,1,5,2,1,High Risk
+Tablet,USA,4,10,4,1,High Risk
+Mobile,USA,1,8,3,1,High Risk
+PC,Vietnam,10,3,0,0,Normal
+Tablet,Vietnam,20,3,0,0,Normal
+Tablet,Korea,21,2,0,2,Suspicious
+PC,UK,0,6,3,1,High Risk
+Mobile,Vietnam,9,3,0,0,Normal
+PC,Japan,4,8,4,1,High Risk
+PC,Korea,3,4,2,1,High Risk
+PC,Japan,20,5,1,2,Suspicious
+PC,Vietnam,20,6,3,0,Normal
+Tablet,UK,4,9,5,1,High Risk
+Tablet,Vietnam,14,3,0,0,Normal
+Mobile,Korea,18,2,0,2,Suspicious
+Mobile,Vietnam,20,2,0,0,Normal
+PC,USA,4,10,5,1,High Risk
+Tablet,UK,3,10,5,1,High Risk
+Tablet,Korea,22,5,1,2,Suspicious
+Tablet,USA,22,7,2,2,Suspicious
+Tablet,USA,2,10,3,1,High Risk
+Tablet,Japan,1,5,3,1,High Risk
+PC,Vietnam,19,2,0,0,Normal
+Tablet,USA,4,4,3,1,High Risk
+PC,USA,2,9,5,1,High Risk
+Mobile,USA,3,8,3,1,High Risk
+Mobile,Korea,8,1,0,2,Suspicious
+PC,Vietnam,10,2,0,0,Normal
+PC,Vietnam,6,3,0,0,Normal
+PC,Korea,8,1,0,2,Suspicious
+Mobile,Vietnam,13,3,0,0,Normal
+Tablet,Korea,1,4,1,1,High Risk
+PC,Vietnam,14,2,0,0,Normal
+Tablet,USA,22,4,3,2,Suspicious
+PC,Vietnam,14,3,0,0,Normal
+Tablet,USA,0,5,1,1,High Risk
+Mobile,Vietnam,13,3,0,0,Normal
+PC,Japan,0,5,2,1,High Risk
+Tablet,Japan,2,9,4,1,High Risk
+Tablet,UK,2,8,3,1,High Risk
+PC,UK,3,4,2,1,High Risk
+Tablet,Vietnam,7,1,0,0,Normal
+Mobile,Vietnam,21,1,0,0,Normal
+PC,Vietnam,16,3,0,0,Normal
+Tablet,Korea,0,4,2,1,High Risk
+Tablet,Korea,20,1,0,2,Suspicious
+Mobile,Vietnam,7,3,0,0,Normal
+Mobile,Korea,10,1,0,2,Suspicious
+PC,USA,2,5,3,1,High Risk
+Tablet,Vietnam,20,2,0,0,Normal
+Mobile,UK,21,6,1,2,Suspicious
+Tablet,USA,21,5,1,2,Suspicious
+Tablet,Vietnam,17,1,0,0,Normal
+Mobile,Vietnam,18,3,0,0,Normal
+Tablet,USA,2,4,3,1,High Risk
+Tablet,Vietnam,17,1,0,0,Normal
+Tablet,Korea,4,5,3,1,High Risk
+Tablet,USA,0,7,3,1,High Risk
+Tablet,Vietnam,18,2,0,0,Normal
+Tablet,Vietnam,2,6,3,1,High Risk
+PC,Japan,23,4,1,2,Suspicious
+PC,UK,4,10,3,1,High Risk
+Tablet,Korea,17,3,0,2,Suspicious
+Tablet,Vietnam,12,2,0,0,Normal
+Mobile,UK,4,9,3,1,High Risk
+PC,Vietnam,8,2,0,0,Normal
+Mobile,Vietnam,10,2,0,0,Normal
+Mobile,Japan,21,4,2,2,Suspicious
+Mobile,Vietnam,18,2,0,0,Normal
+Mobile,UK,2,10,4,1,High Risk
+PC,Korea,6,1,0,2,Suspicious
+Mobile,Vietnam,20,2,0,0,Normal
+Mobile,Vietnam,7,2,0,0,Normal
+Mobile,Vietnam,20,3,0,0,Normal
+Mobile,Vietnam,10,2,0,0,Normal
+PC,Vietnam,20,3,0,0,Normal
+PC,UK,2,4,3,1,High Risk
+PC,Japan,2,5,1,1,High Risk
+PC,Vietnam,21,3,0,0,Normal
+PC,Vietnam,7,2,0,0,Normal
+Mobile,USA,4,5,3,1,High Risk
+Mobile,Vietnam,17,1,0,0,Normal
+Mobile,Vietnam,20,4,3,0,Normal
+Tablet,USA,5,4,2,1,High Risk
+PC,UK,0,6,2,1,High Risk
+PC,Korea,17,1,0,2,Suspicious
+Tablet,Korea,22,6,3,2,Suspicious
+PC,Vietnam,6,3,0,0,Normal
+Tablet,USA,21,6,3,2,Suspicious
+PC,USA,20,6,1,2,Suspicious
+Tablet,USA,2,4,3,1,High Risk
+Tablet,Vietnam,6,1,0,0,Normal
+Tablet,Vietnam,6,1,0,0,Normal
+Tablet,Korea,9,2,0,2,Suspicious
+Mobile,Vietnam,2,4,1,0,Normal
+PC,UK,23,4,3,2,Suspicious
+Mobile,Vietnam,12,2,0,0,Normal
+Mobile,UK,1,5,2,1,High Risk
+PC,USA,20,4,1,2,Suspicious
+Tablet,Vietnam,15,3,0,0,Normal
+Mobile,USA,2,8,4,1,High Risk
+PC,USA,3,8,4,1,High Risk
+Tablet,Japan,4,9,5,1,High Risk
+Tablet,UK,1,8,5,1,High Risk
+Tablet,Vietnam,12,3,0,0,Normal
+Tablet,Korea,2,6,2,1,High Risk
+Mobile,Japan,2,10,4,1,High Risk
+Mobile,Korea,8,3,0,2,Suspicious
+Tablet,UK,3,5,1,1,High Risk
+Mobile,Vietnam,13,3,0,0,Normal
+Mobile,Korea,14,1,0,2,Suspicious
+PC,Vietnam,21,4,3,0,Normal
+PC,Japan,1,4,3,1,High Risk
+PC,Japan,2,4,2,1,High Risk
+PC,Vietnam,17,1,0,0,Normal
+Mobile,UK,21,4,1,2,Suspicious
+Tablet,Japan,3,5,3,1,High Risk
+Mobile,Japan,3,8,3,1,High Risk
+Mobile,Vietnam,17,2,0,0,Normal
+PC,Vietnam,15,2,0,0,Normal
+Tablet,Japan,21,6,1,2,Suspicious
+PC,Korea,15,1,0,2,Suspicious
+Mobile,Vietnam,10,1,1,0,Normal
+PC,Vietnam,0,7,1,1,High Risk
+Tablet,Vietnam,21,1,0,0,Normal
+PC,UK,20,4,1,2,Suspicious
+Mobile,UK,3,6,2,1,High Risk
+Mobile,Vietnam,6,2,0,0,Normal
+Tablet,Vietnam,1,5,2,1,High Risk
+PC,USA,2,4,2,1,High Risk
+Tablet,Vietnam,21,3,0,0,Normal
+Tablet,USA,2,9,3,1,High Risk
+Tablet,Vietnam,14,2,0,0,Normal
+Tablet,Vietnam,22,4,3,0,Normal
+Tablet,Vietnam,21,3,0,0,Normal
+Mobile,UK,4,4,1,1,High Risk
+Mobile,Vietnam,17,2,0,0,Normal
+Mobile,Vietnam,11,3,0,0,Normal
+PC,Vietnam,11,2,0,0,Normal
+Mobile,Vietnam,19,1,0,0,Normal
+Mobile,Vietnam,21,3,0,0,Normal
+Tablet,Korea,20,1,0,2,Suspicious
+PC,Vietnam,8,3,0,0,Normal
+PC,Korea,15,1,0,2,Suspicious
+PC,Japan,20,7,3,2,Suspicious
+Mobile,Korea,8,1,0,2,Suspicious
+Tablet,Korea,23,4,1,2,Suspicious
+Tablet,Korea,9,2,0,2,Suspicious
+PC,Vietnam,18,1,0,0,Normal
+PC,UK,4,4,1,1,High Risk
+Tablet,Vietnam,3,5,3,1,High Risk
+PC,UK,23,4,3,2,Suspicious
+Mobile,Vietnam,8,1,0,0,Normal
+Mobile,Vietnam,11,2,0,0,Normal
+PC,Vietnam,12,2,0,0,Normal
+PC,UK,1,10,3,1,High Risk
+PC,Japan,22,6,2,2,Suspicious
+Mobile,Vietnam,6,1,0,0,Normal
+Tablet,Vietnam,12,1,0,0,Normal
+Mobile,USA,4,10,5,1,High Risk
+PC,Vietnam,13,3,0,0,Normal
+Tablet,Vietnam,5,5,1,0,Normal
+Mobile,Vietnam,15,2,0,0,Normal
+Tablet,Korea,20,3,0,2,Suspicious
+Tablet,USA,4,9,3,1,High Risk
+Tablet,USA,3,8,4,1,High Risk
+Mobile,Japan,2,10,5,1,High Risk
+Mobile,Korea,14,2,0,2,Suspicious
+Mobile,Korea,1,5,3,1,High Risk
+Mobile,Japan,5,5,1,2,Suspicious
+PC,USA,1,9,3,1,High Risk
+Mobile,UK,5,4,3,1,High Risk
+Tablet,UK,3,4,2,1,High Risk
+Tablet,Korea,14,2,0,2,Suspicious
+PC,Vietnam,11,2,0,0,Normal
+PC,Korea,14,3,0,2,Suspicious
+PC,Vietnam,8,1,0,0,Normal
+PC,Korea,1,6,1,1,High Risk
+Mobile,Korea,19,1,0,2,Suspicious
+PC,Vietnam,12,2,1,0,Normal
+Mobile,Vietnam,19,1,0,0,Normal
+Tablet,Japan,23,4,2,2,Suspicious
+Tablet,Japan,2,9,4,1,High Risk
+PC,Vietnam,12,1,0,0,Normal
+PC,Vietnam,21,4,3,0,Normal
+PC,Japan,21,4,2,2,Suspicious
+PC,USA,21,7,2,2,Suspicious
+Tablet,Vietnam,11,2,0,0,Normal
+Mobile,UK,3,10,3,1,High Risk
+Tablet,Vietnam,10,1,0,0,Normal
+PC,Vietnam,14,1,0,0,Normal
+PC,Korea,6,1,0,2,Suspicious
+PC,Vietnam,10,1,0,0,Normal
+Tablet,Vietnam,12,2,0,0,Normal
+Tablet,Vietnam,21,3,0,0,Normal
+PC,Korea,20,2,0,2,Suspicious
+PC,Vietnam,18,2,0,0,Normal
+Tablet,Korea,16,1,0,2,Suspicious
+PC,UK,1,9,5,1,High Risk
+Tablet,USA,2,6,3,1,High Risk
+Mobile,Japan,3,6,1,1,High Risk
+Tablet,Japan,1,8,5,1,High Risk
+Tablet,Japan,3,6,3,1,High Risk
+Tablet,Japan,0,7,3,1,High Risk
+Mobile,Korea,5,4,2,1,High Risk
+PC,USA,1,10,3,1,High Risk
+PC,UK,4,6,1,1,High Risk
+Mobile,USA,1,8,4,1,High Risk
+PC,USA,3,10,4,1,High Risk
+Mobile,Vietnam,3,5,1,0,Normal
+Mobile,Vietnam,0,6,3,1,High Risk
+Mobile,Vietnam,8,1,1,0,Normal
+Tablet,Vietnam,16,3,0,0,Normal
+Tablet,Vietnam,0,4,2,1,High Risk
+PC,Korea,3,6,1,1,High Risk
+PC,UK,20,5,1,2,Suspicious
+Tablet,Vietnam,17,1,0,0,Normal
+Mobile,Vietnam,19,2,0,0,Normal
+Mobile,Vietnam,8,3,0,0,Normal
+Mobile,Korea,12,1,0,2,Suspicious
+PC,Vietnam,10,2,1,0,Normal
+Mobile,UK,23,7,1,2,Suspicious
+Mobile,Vietnam,15,3,0,0,Normal
+Mobile,Japan,2,7,3,1,High Risk
+Tablet,Vietnam,6,1,0,0,Normal
+PC,Vietnam,19,1,0,0,Normal
+PC,USA,2,6,2,1,High Risk
+PC,UK,2,7,2,1,High Risk
+Mobile,Korea,15,2,0,2,Suspicious
+PC,Korea,10,3,0,2,Suspicious
+Tablet,Vietnam,3,6,3,1,High Risk
+PC,Vietnam,20,1,0,0,Normal
+PC,Japan,3,10,3,1,High Risk
+Tablet,Vietnam,10,2,0,0,Normal
+Tablet,USA,4,9,3,1,High Risk
+Tablet,USA,2,10,4,1,High Risk
+Mobile,Japan,22,7,1,2,Suspicious
+Tablet,Vietnam,14,1,0,0,Normal
+Tablet,Korea,8,2,0,2,Suspicious
+PC,Vietnam,19,2,0,0,Normal
+PC,Korea,22,6,1,2,Suspicious
+Mobile,USA,2,9,3,1,High Risk
+Tablet,Japan,20,4,2,2,Suspicious
+PC,Korea,18,2,0,2,Suspicious
+PC,Korea,16,2,0,2,Suspicious
+Mobile,Vietnam,21,2,0,0,Normal
+PC,UK,3,4,1,1,High Risk
+PC,Japan,23,5,2,2,Suspicious
+PC,Vietnam,12,3,0,0,Normal
+Mobile,USA,1,9,3,1,High Risk
+Tablet,Korea,18,1,0,2,Suspicious
+Tablet,USA,4,4,2,1,High Risk
+Mobile,Korea,22,4,1,2,Suspicious
+Mobile,Japan,3,5,2,1,High Risk
+PC,UK,4,6,2,1,High Risk
+Mobile,UK,1,9,4,1,High Risk
+Tablet,Vietnam,6,1,0,0,Normal
+Mobile,Vietnam,18,1,0,0,Normal
+Mobile,Korea,10,2,0,2,Suspicious
+Mobile,Vietnam,16,1,0,0,Normal
+PC,Korea,9,1,0,2,Suspicious
+Tablet,USA,1,10,3,1,High Risk
+Tablet,Vietnam,0,4,2,1,High Risk
+Mobile,Vietnam,11,2,0,0,Normal
+Mobile,USA,2,9,4,1,High Risk
+PC,Vietnam,14,3,0,0,Normal
+PC,UK,3,6,1,1,High Risk
+Mobile,Vietnam,13,2,0,0,Normal
+Mobile,Vietnam,19,3,1,0,Normal
+Tablet,Japan,22,5,1,2,Suspicious
+Mobile,Japan,4,10,3,1,High Risk
+Tablet,Korea,10,1,0,2,Suspicious

@@ -1,0 +1,331 @@
+body {
+    margin: 0;
+    padding: 12px;
+    background: linear-gradient(135deg, #0f1419 0%, #1a2332 50%, #0f1419 100%);
+    font-family: 'Segoe UI', sans-serif;
+    color: #e0e0e0;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* ===== WRAPPER ===== */
+.ai-wrapper {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* ===== HEADER ===== */
+.ai-title {
+    text-align: center;
+    font-size: 2.2em;
+    color: #00ff99;
+    text-shadow: 0 0 20px rgba(0, 255, 153, 0.5);
+    margin: 25px 0 5px;
+}
+
+/* ===== BACK BUTTON WRAPPER ===== */
+.ai-back-wrap {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ai-back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #00ccff;
+    text-decoration: none;
+    border-radius: 20px;
+    background: rgba(0, 100, 150, 0.2);
+    border: 2px solid #00ccff;
+    transition: all 0.3s;
+}
+
+.ai-back-btn:hover {
+    background: rgba(0, 200, 255, 0.3);
+    box-shadow: 0 0 15px rgba(0, 204, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+/* ===== DESCRIPTION ===== */
+.ai-desc {
+    text-align: center;
+    font-size: 0.95em;
+    color: #00ccff;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+/* ===== CHARTS CONTAINER ===== */
+.ai-charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.chart-box {
+    background: rgba(0, 30, 60, 0.6);
+    border: 2px solid #00ffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart-box h3 {
+    text-align: center;
+    color: #00ff99;
+    font-size: 1.1em;
+    margin: 0 0 15px 0;
+    text-shadow: 0 0 8px rgba(0, 255, 153, 0.3);
+}
+
+canvas {
+    max-width: 100%;
+    max-height: 280px;
+    display: block;
+}
+
+/* ===== TABLE CONTAINER ===== */
+.table-container {
+    overflow-x: auto;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
+}
+
+/* ===== TABLE ===== */
+.ai-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(0, 20, 40, 0.5);
+    border: 2px solid #00ffff;
+    border-radius: 12px;
+    overflow: hidden;
+    font-size: 0.85em;
+    animation: dashboardGlow 3s ease-in-out infinite;
+}
+
+@keyframes dashboardGlow {
+    0%, 100% {
+        box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.6);
+    }
+}
+
+.ai-table th {
+    background: linear-gradient(135deg, rgba(0, 50, 100, 0.6), rgba(0, 100, 150, 0.4));
+    color: #00ff99;
+    padding: 12px 10px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid #00ffff;
+    white-space: nowrap;
+}
+
+.ai-table td {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+    color: #ccc;
+}
+
+.ai-table tr:hover {
+    background: rgba(0, 100, 150, 0.2);
+}
+
+/* ===== CLUSTER CLASSES ===== */
+.cluster0 {
+    border-left: 4px solid #00ff99;
+}
+
+.cluster1 {
+    border-left: 4px solid #ffff00;
+}
+
+.cluster2 {
+    border-left: 4px solid #ff5555;
+}
+
+/* ===== STATUS ===== */
+.status {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 0.85em;
+    white-space: nowrap;
+}
+
+.status-success {
+    color: #00ff99;
+    background: rgba(0, 255, 153, 0.15);
+    border: 1px solid #00ff99;
+    box-shadow: 0 0 8px rgba(0, 255, 153, 0.3);
+}
+
+.status-warning {
+    color: #ffff00;
+    background: rgba(255, 255, 0, 0.15);
+    border: 1px solid #ffff00;
+    box-shadow: 0 0 8px rgba(255, 255, 0, 0.3);
+}
+
+.status-suspicious {
+    color: #ff9900;
+    background: rgba(255, 153, 0, 0.15);
+    border: 1px solid #ff9900;
+    box-shadow: 0 0 8px rgba(255, 153, 0, 0.3);
+}
+
+.status-failed {
+    color: #ff5555;
+    background: rgba(255, 85, 85, 0.15);
+    border: 1px solid #ff5555;
+    box-shadow: 0 0 8px rgba(255, 85, 85, 0.3);
+}
+
+/* ===== AI NOTE ===== */
+.ai-note {
+    background: rgba(0, 100, 150, 0.2);
+    border-left: 4px solid #00ffff;
+    padding: 15px;
+    border-radius: 8px;
+    color: #00ccff;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ===== FOOTER ===== */
+.ai-footer {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid rgba(0, 255, 255, 0.2);
+    color: #666;
+    font-size: 0.9em;
+}
+
+.ai-footer a {
+    color: #00ccff;
+    text-decoration: none;
+    margin: 0 12px;
+    transition: all 0.3s;
+}
+
+.ai-footer a:hover {
+    color: #00ff99;
+    text-shadow: 0 0 8px rgba(0, 255, 153, 0.5);
+}
+
+/* ===== BREADCRUMB ===== */
+.breadcrumb {
+    font-size: 0.85em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.breadcrumb a {
+    color: #00ccff;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    color: #00ff99;
+}
+
+.breadcrumb span {
+    color: #00ff99;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+    .ai-charts {
+        grid-template-columns: 1fr;
+    }
+    
+    .ai-wrapper {
+        padding: 20px 12px;
+    }
+    
+    .ai-title {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 768px) {
+    .ai-wrapper {
+        padding: 15px 10px;
+    }
+    
+    .ai-title {
+        font-size: 1.5em;
+        margin: 15px 0 5px;
+    }
+    
+    .ai-desc {
+        font-size: 0.85em;
+    }
+    
+    .ai-charts {
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+    
+    .chart-box {
+        padding: 15px;
+    }
+    
+    .ai-table {
+        font-size: 0.75em;
+    }
+    
+    .ai-table th,
+    .ai-table td {
+        padding: 8px 5px;
+    }
+    
+    .status {
+        font-size: 0.7em;
+        padding: 3px 6px;
+    }
+}
+/* ===== RISK PERCENTAGE STYLING ===== */
+.ai-table td.risk-normal {
+    background-color: rgba(44, 255, 157, 0.15);
+    color: #2cff9d;
+    font-weight: bold;
+    border-left: 3px solid #2cff9d;
+}
+
+.ai-table td.risk-suspicious {
+    background-color: rgba(255, 216, 77, 0.15);
+    color: #ffd84d;
+    font-weight: bold;
+    border-left: 3px solid #ffd84d;
+}
+
+.ai-table td.risk-high {
+    background-color: rgba(255, 76, 76, 0.15);
+    color: #ff4c4c;
+    font-weight: bold;
+    border-left: 3px solid #ff4c4c;
+}
+
+.ai-table td.risk-not-analyzed {
+    background-color: rgba(155, 155, 155, 0.1);
+    color: #999999;
+    font-style: italic;
+}
